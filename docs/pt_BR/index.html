@@ -16,7 +16,7 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mona Mayhem Workshop</title>
+    <title>Workshop Mona Mayhem</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     <link rel="alternate" hreflang="en" href="https://copilot-dev-days.github.io/mona-mayhem/">
@@ -47,9 +47,9 @@
 
     <section class="hero">
         <div class="container">
-            <div class="hero-badge" id="heroBadge">🎮 VS Code GitHub Copilot Workshop</div>
-            <h1>Mona Mayhem Workshop</h1>
-            <p class="hero-subtitle" id="heroSubtitle">Construa uma arena de batalha de contribuições GitHub em estilo retrô arcade enquanto domina os recursos do VS Code Copilot: engenharia de contexto, Plan Mode, Agent Mode, desenvolvimento design-first e fluxos de trabalho multi-agent.</p>
+            <div class="hero-badge" id="heroBadge">🎮 Workshop de GitHub Copilot para VS Code</div>
+            <h1>Workshop Mona Mayhem</h1>
+            <p class="hero-subtitle" id="heroSubtitle">Construa uma arena de batalha com dados de contribuições do GitHub e visual de arcade retrô enquanto aprende a usar os recursos do Copilot para VS Code: engenharia de contexto, Plan Mode, Agent Mode, desenvolvimento com foco no design e fluxos de trabalho multiagente.</p>
             <div class="track-panel">
                 <p class="track-panel-title">Escolha sua superfície Copilot</p>
                 <p class="track-panel-copy" id="trackCopy">Use o workshop VS Code para praticar Chat, Plan Mode, Agent Mode, agentes em segundo plano e o ciclo de revisão no editor.</p>
@@ -79,7 +79,7 @@
 
     <section class="features">
         <div class="container">
-            <h2 class="section-title">O que Você Vai Aprender</h2>
+            <h2 class="section-title">O que você vai aprender</h2>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon" id="feature1Icon">🧠</div>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon" id="feature4Icon">🎨</div>
-                    <h3 id="feature4Title">Fluxos Multi-Agent</h3>
+                    <h3 id="feature4Title">Fluxos multiagente</h3>
                     <p id="feature4Copy">Use agentes em segundo plano e na nuvem para polimento paralelo — design responsivo, UX de erros, variações de tema.</p>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                 <a href="step.html?step=00-overview&amp;track=vscode" class="part-card" data-step="00-overview">
                     <div class="part-number">00</div>
                     <div class="part-content">
-                        <h3>Visão Geral</h3>
+                        <h3>Visão geral</h3>
                         <p>O que você vai construir e como as trilhas VS Code e CLI diferem</p>
                     </div>
                     <span class="part-time">5 min</span>
@@ -138,15 +138,15 @@
                     <div class="part-number">03</div>
                     <div class="part-content">
                         <h3>Construir o Jogo</h3>
-                        <p>Implemente a página de batalha com fluxos de codificação agentic</p>
+                        <p>Implemente a página de batalha com fluxos de programação agêntica</p>
                     </div>
                     <span class="part-time">10 min</span>
                 </a>
                 <a href="step.html?step=04-design-vibes&amp;track=vscode" class="part-card" data-step="04-design-vibes">
                     <div class="part-number">04</div>
                     <div class="part-content">
-                        <h3>Temas Design-First</h3>
-                        <p>Transforme a UI com prompts plan-first e polimento iterativo</p>
+                        <h3>Tematização com foco no design</h3>
+                        <p>Transforme a interface com prompts de planejamento e polimento iterativo</p>
                     </div>
                     <span class="part-time">10 min</span>
                 </a>
@@ -154,14 +154,14 @@
                     <div class="part-number">05</div>
                     <div class="part-content">
                         <h3>Polimento &amp; Trabalho Paralelo</h3>
-                        <p>Use fluxos multi-agent ou multi-sessão para finalizar com qualidade</p>
+                        <p>Use fluxos multiagente ou de várias sessões para concluir com qualidade</p>
                     </div>
                     <span class="part-time">10 min</span>
                 </a>
                 <a href="step.html?step=06-bonus&amp;track=vscode" class="part-card" data-step="06-bonus">
                     <div class="part-number">🎉</div>
                     <div class="part-content">
-                        <h3>Bônus &amp; Extensões</h3>
+                        <h3>Bônus e extensões</h3>
                         <p>Desafios abertos, fluxos de compartilhamento e mais experimentos com Copilot</p>
                     </div>
                     <span class="part-time">15+ min</span>
@@ -194,30 +194,30 @@
         const tracks = {
             vscode: {
                 label: 'VS Code',
-                badge: '🎮 VS Code GitHub Copilot Workshop',
-                subtitle: 'Construa uma arena de batalha de contribuições GitHub em estilo retrô arcade enquanto domina os recursos do VS Code Copilot: engenharia de contexto, Plan Mode, Agent Mode, desenvolvimento design-first e fluxos de trabalho multi-agent.',
+                badge: '🎮 Workshop de GitHub Copilot para VS Code',
+                subtitle: 'Construa uma arena de batalha com dados de contribuições do GitHub e visual de arcade retrô enquanto aprende a usar os recursos do Copilot para VS Code: engenharia de contexto, Plan Mode, Agent Mode, desenvolvimento com foco no design e fluxos de trabalho multiagente.',
                 copy: 'Use o workshop VS Code para praticar Chat, Plan Mode, Agent Mode, agentes em segundo plano e o ciclo de revisão no editor.',
-                highlights: ['Chat panel', 'Plan Mode', 'Agent Mode', 'Background agents'],
+                highlights: ['Painel de Chat', 'Plan Mode', 'Agent Mode', 'Agentes em segundo plano'],
                 prerequisites: ['VS Code v1.107+', 'GitHub Copilot', 'Node.js 18+', 'Git instalado'],
                 features: [
                     { icon: '🧠', title: 'Engenharia de Contexto', copy: 'Ensine o Copilot sobre seu código com instruções de workspace, agentes em segundo plano e exploração com o modo Ask.' },
                     { icon: '📋', title: 'Plan Mode', copy: 'Projete a arquitetura antes de codificar — itere nos planos até estarem corretos, depois implemente com confiança.' },
                     { icon: '🤖', title: 'Agent Mode', copy: 'Deixe o Copilot criar funcionalidades inteiras de forma autônoma em múltiplos arquivos, depois itere com feedback.' },
-                    { icon: '🎨', title: 'Fluxos Multi-Agent', copy: 'Use agentes em segundo plano e na nuvem para polimento paralelo — design responsivo, UX de erros, variações de tema.' }
+                    { icon: '🎨', title: 'Fluxos multiagente', copy: 'Use agentes em segundo plano e na nuvem para aprimorar em paralelo o design responsivo, a experiência de erro e as variações de tema.' }
                 ]
             },
             cli: {
                 label: 'CLI',
-                badge: '💻 GitHub Copilot CLI Workshop',
+                badge: '💻 Workshop do GitHub Copilot CLI',
                 subtitle: 'Construa o mesmo app retrô arcade enquanto aprende fluxos de trabalho nativos do terminal com Copilot: instruções personalizadas, /plan, edições autônomas, paralelismo com /fleet, /delegate e /review.',
-                copy: 'Use o workshop CLI para ficar no terminal enquanto planeja, codifica, revisa e paraleliza trabalho com comandos agentic.',
+                copy: 'Use o workshop da CLI para trabalhar no terminal enquanto planeja, programa, revisa e paraleliza tarefas com comandos agênticos.',
                 highlights: ['copilot', '/plan', '/fleet', '/delegate', '/review'],
                 prerequisites: ['Plano GitHub Copilot com acesso CLI', 'Copilot CLI instalado via npm (requer Node.js 22+), Homebrew ou WinGet', 'Git instalado', 'Terminal ou shell de sua preferência'],
                 features: [
-                    { icon: '🛠️', title: 'Instruções & Permissões Personalizadas', copy: 'Inicialize instruções do repositório, ajuste allowlists e dê ao Copilot exatamente o contexto e as ferramentas necessárias.' },
-                    { icon: '📋', title: 'Plan & Autopilot', copy: 'Use /plan ou Shift+Tab para criar um plano primeiro, depois deixe o Copilot implementar com sua aprovação.' },
+                    { icon: '🛠️', title: 'Instruções e permissões personalizadas', copy: 'Inicialize as instruções do repositório, ajuste as listas de permissões e forneça ao Copilot o contexto e as ferramentas necessárias.' },
+                    { icon: '📋', title: 'Planejamento e piloto automático', copy: 'Use /plan ou Shift+Tab para elaborar um plano primeiro e, depois, deixe o Copilot implementar com sua aprovação.' },
                     { icon: '⚡', title: 'Fluxos Paralelos no CLI', copy: 'Use /fleet para dividir trabalho entre subagentes e manter o ritmo enquanto revisa os diffs.' },
-                    { icon: '🔍', title: 'Delegate & Review', copy: 'Delegue trabalho opcional com /delegate e execute /review antes de finalizar o workshop.' }
+                    { icon: '🔍', title: 'Delegar e revisar', copy: 'Delegue tarefas opcionais com /delegate e execute /review antes de encerrar o workshop.' }
                 ]
             }
         };
